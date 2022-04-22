@@ -1,0 +1,7 @@
+apiVersion: webserver.tutorial.io/v1
+kind: Server
+metadata:
+  name: server-sample
+spec:
+  image: nginx:stable-alpine
+  replicas: 3
